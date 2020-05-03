@@ -1,0 +1,88 @@
+body {
+    background-position: 100%;
+    background-image: url(_imagens/fundo.jpg);
+    background-attachment: fixed;
+    font-family: arial, sans-serif;
+    background-repeat: no-repeat;
+}
+#cabecalho{
+    background-color: rgb(3, 3, 90);
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 7.5px;
+    width: 50%;
+        min-width: 480px;
+    height: 20px;
+    margin: 120px auto 0 auto;
+    border: 3px solid rgb(2, 2, 56);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+div {
+    padding: 8px;
+    width: 50%;
+        min-width: 480px;
+    height: 600px;
+    background-color: #dadada;
+    margin: 0px auto 150px auto;
+    border: 3px solid rgb(2, 2, 56);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+    font-size: 20px;
+}
+p.cab{
+    position: absolute;
+    margin: -5px auto;
+}
+h3{
+    margin: 8px 8px;
+}
+form{
+    width: 50%;
+    margin-left: 25%;
+    
+}
+fieldset#sexo{width: 250px;}
+img{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 0px;
+    
+}
+.botaovoltar{
+    position: absolute;
+    margin-left: 40px;
+}
+.voltar{
+    position: absolute;
+    margin-top: -25px;
+}
+.linha1{
+    margin-top: 25px;
+}
+p{
+    padding: 5px;
+    margin: 2px;
+}
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.btnvoltar{
+    padding: 8px;
+    border: 2px solid rgb(98, 98, 98);
+    text-decoration: none; 
+    color: white;
+    background-color: rgb(21, 34, 47);
+    box-shadow: 2px 2px 3px #777777;
+}
+span.foco{
+    color: rgb(98, 1, 1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+

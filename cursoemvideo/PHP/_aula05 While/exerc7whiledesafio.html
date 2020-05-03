@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/estilo.css">
+    <title>CONTADOR PERSONALIZÁVEL</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <p class="cab"> Curso de PHP - Rômulo Criston </p>
+    </div>
+    <div>
+        <a class=voltar href="exerc7whiledesafio.php" title="Iniciar">
+            <img src="../_css/_imagens/back2.png" width="80px" alt="Voltar">
+        </a>
+        <br/><hr class="linha1"><br/>
+
+        <form method="GET" action="exerc7whiledesafio.php">
+            <fieldset><legend> Contador personalizável </legend>
+                <p><label for="ini"> INÍCIO </label>
+                    <input type="number" name="pIni" id="ini" size="5" min="0" max="100" required autofocus>
+                <label for="fim"> FINAL </label>
+                    <input type="number" name="pFim" id="fim" size="5" min="0" max="100" required>
+                <!--<label for="inc"> Incremento </label>
+                    <input type="text" name="pInc" id="inc" size="5" min="0" max="100" required>-->
+                </p>
+                <p><label for="inc"> Incremento </label>
+                    <select name="pInc" id="inc" size="6">
+                        <option value="1" selected> 1 </option>
+                        <option value="2"> 2 </option>
+                        <option value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="10"> 10 </option>
+                    </select></p>
+            </fieldset><br/>
+            <input type="submit" value="Calcular" class="btnvoltar">
+        </form>
+    </div>
+</body>
+</html>

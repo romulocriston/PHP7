@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/estilo.css">
+    <title>Condição SWITCH</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <p class="cab"> Curso de PHP - Rômulo Criston </p>
+    </div>
+    <div>
+        <a class=voltar href="exerc6switch.php" title="Iniciar">
+            <img src="../_css/_imagens/back2.png" width="80px" alt="Voltar">
+        </a>
+        <br/><hr class="linha1"><br/>
+        <form method="GET" action="exerc6switch.php">
+            <fieldset> <legend> Exercício com Select </legend>
+                <label for="cNum"> Número: </label>
+                    <input type="number" name="pNum" id="cNum" size="5" min="0" max="99999" placeholder=" num" required autofocus>
+                
+                <label for="cOp"> Operação: </label>
+                    <select name="pOp" id="cOp">
+                        <option value="dobro" selected> Dobro </option>
+                        <option value="cubo"> Cubo </option>
+                        <option value="raiz"> Raiz Quadrada </option>
+                    </select>
+            </fieldset><br/>
+
+            <fieldset><legend> Exercicio com Radio </legend>
+                <input type="radio" name="pOperador" id="cDobro" value="dobro" checked>
+                    <label for="cDobro"> Dobro </label>
+                <input type="radio" name="pOperador" id="cCubo" value="cubo">
+                    <label for="cCubo"> Cubo </label>
+                <input type="radio" name="pOperador" id="cRaiz" value="raiz">
+                    <label for="cRaiz"> Raiz Quadrada </label>
+            </fieldset><br/>
+
+            <fieldset><legend> Dia da Semana </legend>
+                <label for="cDia"> Escolha o Dia: </label>
+                    <select name="pDia" id="cDia">
+                        <option value="Segunda" selected> Segunda </option>
+                        <option value="Terça"> Terça </option>
+                        <option value="Quarta"> Quarta </option>
+                        <option value="Quinta"> Quinta </option>
+                        <option value="Sexta"> Sexta </option>
+                        <option value="Sábado"> Sábado </option>
+                        <option value="Domingo"> Domingo </option>
+                    </select>
+            </fieldset><br/>
+
+            <fieldset><legend> Estado </legend>
+                <label for="cEst"> Escolha o Estado: </label>
+                    <select name="pEst" id="cEst">
+                        <option value="0" selected>Selecione</option>
+                        <option value="AC">Acre (AC)</option>
+                        <option value="AL">Alagoas (AL)</option>
+                        <option value="AP">Amapá (AP)</option>
+                        <option value="AM">Amazonas (AM)</option>
+                        <option value="BA">Bahia (BA)</option>
+                        <option value="CE">Ceará (CE)</option>
+                        <option value="DF">Distrito Federal (DF)</option>
+                        <option value="ES">Espírito Santo (ES)</option>
+                        <option value="GO">Goiás (GO)</option>
+                        <option value="MA">Maranhão (MA)</option>
+                        <option value="MT">Mato Grosso (MT)</option>
+                        <option value="MS">Mato Grosso do Sul (MS)</option>
+                        <option value="MG">Minas Gerais (MG)</option>
+                        <option value="PA">Pará (PA)</option>
+                        <option value="PB">Paraíba (PB)</option>
+                        <option value="PR">Paraná (PR)</option>
+                        <option value="PE">Pernambuco (PE)</option>
+                        <option value="PI">Piauí (PI)</option>
+                        <option value="RJ">Rio de Janeiro (RJ)</option>
+                        <option value="RN">Rio Grande do Norte (RN)</option>
+                        <option value="RS">Rio Grande do Sul (RS)</option>
+                        <option value="RO">Rondônia (RO)</option>
+                        <option value="RR">Roraima (RR)</option>
+                        <option value="SC">Santa Catarina (SC)</option>
+                        <option value="SP">São Paulo (SP)</option>
+                        <option value="SE">Sergipe (SE)</option>
+                        <option value="TO">Tocantins (TO)</option>
+                    </select>
+            </fieldset><br/>
+
+            <input type="submit" value="Calcular" class="btnvoltar">
+        </form>
+        
+
+    </div>
+</body>
+</html>

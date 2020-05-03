@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/estilo.css">
+    <title>MODELO</title>
+    <style>
+        div {
+            background-color: rgb(255, 255, 255);
+            color: rgb(82, 44, 0);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+            box-shadow: rgba(0, 0, 0, .5) 2px 2px 2px;
+        }
+        table{
+            font-family: sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+        }
+        th {
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: #ddd;
+            }
+        td, th{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 8px;
+        }
+        tr:hover {
+            background-color: rgb(187, 187, 187);
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <p class="cab"> Curso de PHP - Rômulo Criston </p>
+    </div>
+    <div>
+        <a class=voltar href="javascript:history.go(-1)" title="Iniciar">
+            <img src="../_css/_imagens/back2.png" width="80px" alt="Voltar">
+        </a>
+        <br/><hr class="linha1"><br/>
+
+        <table id="tab">
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefone</th>
+            </tr>
+
+            <tr>
+                <td>Romulo</td>
+                <td>1234-5678</td>
+                <td>2222-2222</td>
+            </tr>
+            <tr>
+                <td>Dayene</td>
+                <td>3333-3333</td>
+                <td>4444-4444</td>
+            </tr>
+            <tr>
+                <td>Allana</td>
+                <td>5555-5555</td>
+                <td>6666-6666</td>
+            </tr>
+            
+
+        </table>
+
+        <input type="submit" value="Calcular" class="btnvoltar">
+    </div>
+</body>
+</html>

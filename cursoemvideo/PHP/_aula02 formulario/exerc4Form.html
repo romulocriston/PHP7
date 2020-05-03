@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso PHP</title>
+    <link rel="stylesheet" href="../_css/estilo.css">
+</head>
+<body>
+    <div id="cabecalho">
+        <p class="cab"> Curso de PHP - Rômulo Criston </p>
+    </div>
+    <div>
+        <h3> Obtendo dados de formulário </h3>
+        <!-- metodo POST os dados vão em formato de pacotes.
+             método GET os dados vão na URL do formulário -->
+        <form method="GET" id="fContato" action="exerc4Form.php">
+                    <fieldset id="usuario">
+                        <legend> Identificação do Usuário </legend>
+                        <p><label for="cNome"> Nome: </label><input type="text" name="tNome" id="cNome" size="33" maxlength="30" placeholder=" Digite o nome"/ required> </p>
+
+                        <p><label for="cSenha"> Senha: </label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder=" 8 digitos"/> </p>
+
+                        <p><label for="cMail"> E-mail: </label><input type="email" name="tMail" id="cMail" size="33" maxlength="50" placeholder=" Digite seu e-mail" required/> </p>
+
+                        <p><label for="cAno"> Ano Nascimento: </label><input type="number" name="tAno" id="cAno" size="4" min="0" max="9999" required/></p>
+
+                        <fieldset id="sexo"><legend>Sexo:</legend>
+                            <input type="radio" name="tSexo" id="cMasc" value="masculino" checked/> 
+                                <label for="cMasc"> Masculino </label>
+                                
+                            <input type="radio" name="tSexo" id="cFem" value="feminino"/> 
+                                <label for="cFem"> Feminino </label>
+                        </fieldset>
+
+                        <!--<p><label for="cData"> Data de Nascimento: </label><input type="date" name="tData" id="cData" placeholder=" dd/mm/aaaa"/> </p>-->
+
+                        <!--<p><input type="submit" value="ENVIAR"></p>-->
+                    </fieldset>
+
+                    <fieldset id="cores">
+                        <legend> Opções </legend>
+                        <p><label for="itxt"> Texto: </label>
+                            <input type="text" name="tTexto" id="itxt" required/></p>
+                        <p><label for="iTam"> Tamanho: </label>
+                            <select name="tTam" id="iTam">
+                                <option value="8pt"> 8 </option>
+                                <option value="10pt"> 10 </option>
+                                <option value="14pt" selected> 14 </option>
+                                <option value="20pt"> 20 </option>
+                                <option value="30pt"> 30 </option>
+                                <option value="40pt"> 40 </option>
+                            </select></p>
+                        <p><label for="iCor"> Cor: </label>
+                            <input type="color" name="tCor" id="iCor"/></p>
+                        <p><input type="submit" value="GERAR"/></p>
+                    </fieldset>
+        </form>
+    </div>
+</body>
+</html>

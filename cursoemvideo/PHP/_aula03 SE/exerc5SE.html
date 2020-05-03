@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/estilo.css">
+    <title>Condição SE</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <p class="cab"> Curso de PHP - Rômulo Criston </p>
+    </div>
+    <div>
+        <a class=voltar href="exerc5SE.php" title="Iniciar">
+            <img src="../_css/_imagens/back2.png" width="80px" alt="Voltar">
+        </a>
+        <br/><hr class="linha1"><br/>
+
+        <form method="GET" id="fExerc1" action="exerc5SE.php">
+            <fieldset>
+                <legend> Exercicio 1 </legend>
+                <p><label for="cNome"> Nome: </label>
+                    <input type="text" name="pNome" id="cNome" size="45" maxlength="100" placeholder=" Digite seu nome" required>
+                </p>
+                <p><label for="cAno"> Ano Nascimento: </label>
+                    <input type="number" name="pAno" id="cAno" size="4" min="0" required>
+                </p>
+                <p><label for="cNota1"> Nota1: </label>
+                    <input type="number" name="pNota1" id="cNota1" size="3" min="0" max="10" step="0.1" placeholder=" N1" required>
+                </p>
+                <p><label for="cNota2"> Nota2: </label>
+                    <input type="number" name="pNota2" id="cNota2" size="3" min="0" max="10" step="0.1" placeholder=" N2" required>
+                </p>
+                    <input type="submit" value="Calcular" class="btnvoltar">
+                </p>
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+</html>

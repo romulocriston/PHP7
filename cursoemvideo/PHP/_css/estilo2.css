@@ -1,0 +1,55 @@
+body {
+    background-position: 100%;
+    background-image: url(_imagens/fundo.jpg);
+    background-attachment: fixed;
+    font-family: arial, sans-serif;
+    background-repeat: no-repeat;
+}
+#cabecalho{
+    background-color: rgb(3, 3, 90);
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 7.5px;
+    width: 50%;
+        min-width: 480px;
+    height: 20px;
+    margin: 120px auto 0 auto;
+    border: 3px solid rgb(2, 2, 56);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+div.esquerda {
+    position: absolute;
+    padding: 8px;
+    width: 25%;
+        min-width: 240px;
+    height: 600px;
+    background-color: #dadada;
+    margin: 0px 0 200px 24.2%;
+    border: 3px solid rgb(2, 2, 56);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+    font-size: 20px;
+}
+div.direita{
+    position: absolute;
+    padding: 8px;
+    width: 25%;
+        min-width: 240px;
+    height: 600px;
+    background-color: #dadada;
+    margin: 0px 0 200px 48.8%;
+    border: 3px solid rgb(2, 2, 56);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+    font-size: 20px;
+}
+p{
+    position: absolute;
+    margin: 1px auto;
+}
+h3{
+    margin-bottom: 5px;
+    
+}
